@@ -44,8 +44,16 @@ input {
     height: 30px;
     width: 200px;
     padding-left: 10px;
-    border-radius: 10px;
-    border: solid 3px green;
+    border: solid 2px darkred;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+input:focus {
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    border: solid 2px darkred;
+    background-color: white;
 }
 
 .column-one {
