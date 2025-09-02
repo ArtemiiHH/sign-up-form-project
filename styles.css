@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    gap: 50px;
+}
+
+img {
+    height: 100vh;
+    width: auto;
+}
+
