@@ -1,19 +1,29 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 #container {
-    display: flex;
-    gap: 50px;
+  display: flex;
+  gap: 50px;
 }
 
 img {
-    height: 100vh;
-    width: auto;
+  height: 100vh;
+  width: auto;
 }
 
-.form-box {
-    display: flex;
-    flex-direction: column;
-    border: solid 1px black;
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid 1px black;
+  height: 500px;
+  width: auto;
+}
+
+.column-one {
+  display: grid;
+}
+
+.column-two {
+  display: grid;
 }
