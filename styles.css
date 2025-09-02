@@ -20,10 +20,16 @@ form {
   width: auto;
 }
 
+fieldset {
+    border: none;
+}
+
 .column-one {
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .column-two {
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
