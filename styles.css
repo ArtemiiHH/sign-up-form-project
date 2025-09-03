@@ -15,6 +15,12 @@ body {
     height: 100%;
 }
 
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 img {
   height: 100vh;
   width: auto;
@@ -26,7 +32,7 @@ img {
     top: 0;
     left: 0;
     margin-top: 100px;
-    background-color: rgba(255, 0, 0, 0.2);
+    background-color: rgba(255, 0, 0, 0.3);
     position: absolute;
 
     display: flex;
@@ -35,10 +41,10 @@ img {
 }
 
 .overlay img {
-    height: 80px;
+    height: 90px;
     width: auto;
     align-self: center;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 form {
@@ -90,4 +96,12 @@ input:focus {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
+}
+
+button {
+    padding: 24px 64px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
