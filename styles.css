@@ -88,12 +88,12 @@ input {
   background-color: white;
 }
 
-input:focus {
-  height: 30px;
-  width: 200px;
-  padding-left: 10px;
-  border: solid 2px darkred;
-  background-color: white;
+input:valid {
+    border: solid 2px black;
+}
+
+input:invalid {
+    border: solid 2px red;
 }
 
 .column-one {
