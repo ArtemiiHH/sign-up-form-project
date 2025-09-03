@@ -51,7 +51,7 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
-  padding: 20px;
+  padding: 20px 40px;
   border: none;
   height: 300px;
   width: auto;
@@ -104,4 +104,9 @@ button {
     border-radius: 20px;
     font-size: 1.3rem;
     font-weight: 600;
+}
+
+span {
+    color: red;
+    font-weight: 500;
 }
