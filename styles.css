@@ -63,9 +63,9 @@ form {
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-/* .form-box {
+.form-box {
     width: 100%;
-} */
+}
 
 fieldset {
   border: none;
@@ -83,8 +83,8 @@ input {
   height: 30px;
   width: 200px;
   padding-left: 10px;
-  border: solid 2px darkred;
-  background-color: rgba(255, 0, 0, 0.1);
+  border: solid 2px black;
+  background-color: white;
 }
 
 input:focus {
