@@ -32,10 +32,10 @@
         <h2>Apply now!</h2>
 
         <div class="form-box">
-          <form action="">
+          <form action="#" method="get">
             <div class="column-one">
               <fieldset>
-                <label for="first-name">FIRST NAME:</label>
+                <label for="first-name">* FIRST NAME:</label>
                 <input
                   type="text"
                   id="first-name"
@@ -46,25 +46,25 @@
               </fieldset>
 
               <fieldset>
-                <label for="experience">YEARS OF EXPERIENCE:</label>
+                <label for="experience">EMAIL:</label>
                 <input
                   type="number"
                   id="experience"
                   name="experience"
-                  placeholder="10"
+                  placeholder="example@gmail.com"
                   required
                 />
               </fieldset>
 
               <fieldset>
-                <label for="password">PASSWORD:</label>
+                <label for="password">* PASSWORD:</label>
                 <input type="password" id="password" name="password" required />
               </fieldset>
             </div>
 
             <div class="column-two">
               <fieldset>
-                <label for="last-name">LAST NAME:</label>
+                <label for="last-name">* LAST NAME:</label>
                 <input
                   type="text"
                   id="last-name"
@@ -75,7 +75,7 @@
               </fieldset>
 
               <fieldset>
-                <label for="number">PHONE NUMBER:</label>
+                <label for="number">* PHONE NUMBER:</label>
                 <input
                   type="number"
                   id="number"
@@ -86,7 +86,7 @@
               </fieldset>
 
               <fieldset>
-                <label for="re-password">REPEAT PASSWORD:</label>
+                <label for="re-password">* REPEAT PASSWORD:</label>
                 <input
                   type="password"
                   id="re-password"
@@ -95,10 +95,11 @@
                 />
               </fieldset>
             </div>
+
+            <button type="submit">Sign up now</button>
           </form>
         </div>
 
-        <button type="submit">Sign up now</button>
         <p>Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>

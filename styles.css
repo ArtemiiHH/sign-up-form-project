@@ -54,6 +54,7 @@ img {
 form {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
   column-gap: 50px;
   padding: 20px 40px;
   border: none;
@@ -116,7 +117,8 @@ button {
   background-color: darkred;
   color: white;
   cursor: pointer;
-  align-self: flex-start;
+  align-self: center;
+  justify-self: flex-start;
 }
 
 button:hover {
